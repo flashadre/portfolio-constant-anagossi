@@ -347,3 +347,88 @@ h1, h2, h3, h4 { font-family: var(--heading); }
   .contact-hero { padding-bottom: 32px; }.contact-hero-art { min-height: 250px; }.contact-portrait { width: 180px; height: 180px; }.contact-orbit { width: 190px; height: 190px; }.orbit-two { width: 245px; height: 245px; }.skills-grid { grid-template-columns: 1fr; }.skill-card { padding: 20px; }.skill-card h3 { font-size: 21px; }.contact-section { padding-block: 58px; }.contact-grid { grid-template-columns: 1fr; gap: 27px; }.contact-copy h2 { font-size: 39px; }.contact-card { padding: 18px; }.contact-card-footer { margin: 17px -18px -18px; }.contact-method strong { font-size: 9px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
+
+.brand-footer .brand-mark { display: none; }
+@media (max-width: 680px) {
+  body { font-size: 16px; line-height: 1.65; }
+  .container { width: calc(100% - 32px); }
+  .main-nav { font-size: 16px; }
+  .main-nav a:not(.nav-cta) { min-height: 48px; }
+  .nav-cta { min-height: 46px; font-size: 14px; }
+  .hero-grid { padding-block: 46px 64px; }
+  .hero h1 { font-size: clamp(36px, 10vw, 52px); }
+  .hero-text, .intro-body, .case-lead, .body-large,
+  .pillar-card p, .project-body > p, .skill-card ul,
+  .contact-copy > p:not(.eyebrow), .coach-card p { font-size: 15px; }
+  .eyebrow { font-size: 10px; letter-spacing: .1em; }
+  .button { min-height: 46px; font-size: 13px; }
+  .section { padding-block: 52px; }
+  .intro-grid h2, .section-heading h2 { font-size: clamp(29px, 8vw, 34px); }
+  .section-heading > p { font-size: 14px; }
+  .pillar-card { padding: 21px; }
+  .pillar-card h3 { font-size: 22px; }
+  .card-foot { font-size: 10px; }
+  .project-body { padding: 18px; }
+  .project-meta { flex-wrap: wrap; gap: 8px; font-size: 10px; }
+  .project-stats span { font-size: 10px; line-height: 1.35; }
+  .project-body .button { min-height: 44px; font-size: 12px; }
+  .closing-inner h2 { font-size: clamp(28px, 8vw, 34px); }
+  .site-footer { padding-block: 22px; }
+  .brand-footer { font-size: 13px; }
+  .footer-inner > p, .footer-links { font-size: 12px; }
+  .footer-copy { font-size: 11px; }
+  .case-hero h1, .contact-hero h1 { font-size: clamp(34px, 9vw, 46px); }
+  .back-link { min-height: 44px; font-size: 13px; }
+  .case-tags span { font-size: 10px; letter-spacing: .06em; }
+  .facts-grid > div { padding: 12px 10px; }
+  .facts-grid span { font-size: 10px; letter-spacing: .06em; }
+  .facts-grid strong, .joins-facts strong { font-size: 12px; }
+  .facts-grid small { font-size: 11px; }
+  .case-aside a { min-height: 38px; font-size: 12px; }
+  .block-heading .eyebrow { font-size: 10px; }
+  .case-section { padding-block: 30px 52px; }
+  .case-block { margin-bottom: 44px; }
+  .comparison-card, .budget-visual, .spec-board { padding: 14px; }
+  .comparison-head .eyebrow, .budget-header .eyebrow, .spec-header .eyebrow,
+  .results-header .eyebrow { font-size: 10px; }
+  .comparison-head h3, .budget-header h3, .spec-header h3 { font-size: 18px; }
+  .chart-key, .bar-row, .compare-label span,
+  .budget-row-info > span:nth-of-type(2), .budget-row-info > b { font-size: 11px; }
+  .compare-label strong, .budget-row-info strong { font-size: 13px; }
+  .metric-strip span, .decision-callout p, .business-note,
+  .start-stop-grid p, .axis-cards p, .brand-values p,
+  .corrections p, .joins-diagnosis p, .qr-bridge p { font-size: 13px; }
+  .insight-card p { font-size: 12px; }
+  .insight-card small, .timeline-months, .timeline-legend,
+  .visual-caption, .brand-values span, .budget-total small { font-size: 10px; }
+  .start-stop-grid h4 { font-size: 12px; }
+  .segment-list > div { min-height: 48px; }
+  .segment-list > div > span { font-size: 10px; }
+  .segment-list strong { font-size: 11px; }
+  .timeline-label, .subhead > span { font-size: 10px; }
+  .axis-cards h3 { font-size: 15px; }
+  .uvp { font-size: 13px; line-height: 1.5; }
+  .brief-label, .brief-top, .format-tags span,
+  .joins-diagnosis .eyebrow, .period-chip, .rida-footer { font-size: 10px; }
+  .brief-side > span:nth-of-type(2), .brief-main ul { font-size: 13px; }
+  .kanban-head > span, .kanban-columns > div > span,
+  .kanban-columns > div > i b { font-size: 10px; }
+  .kanban-columns > div > i small { font-size: 9px; }
+  .loop-step > span { font-size: 10px; }
+  .loop-step p, .qr-bridge p { font-size: 13px; }
+  .result-row > div:first-child strong { font-size: 12px; }
+  .result-row > div:first-child span, .result-row > em,
+  .roi-footnote, .data-note { font-size: 10px; }
+  .corrections h4, .joins-diagnosis h3 { font-size: 14px; }
+  .tech-stack > div, .spec-grid > div { min-width: 0; }
+  .skill-card { padding: 18px; }
+  .skill-card h3 { font-size: 22px; }
+  .tool-pills span { font-size: 10px; }
+  .contact-copy h2 { font-size: clamp(32px, 8.5vw, 39px); }
+  .availability { font-size: 13px; }
+  .contact-card { padding: 16px; }
+  .contact-method { min-height: 58px; gap: 9px; }
+  .contact-method small, .contact-location small { font-size: 10px; }
+  .contact-method strong, .contact-location strong { font-size: 12px; overflow-wrap: anywhere; }
+  .contact-card-footer { margin: 17px -16px -16px; padding: 12px 8px; font-size: 10px; letter-spacing: .06em; }
+}
