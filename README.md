@@ -1,6 +1,6 @@
 # Portfolio de Constant Anagossi
 
-Site portfolio statique, en français, composé de quatre pages HTML et publié avec GitHub Pages.
+Site portfolio statique, en français, publié avec GitHub Pages.
 
 ## Déploiement
 
@@ -10,8 +10,10 @@ Dans les paramètres du dépôt GitHub, activez **Pages** avec la source **GitHu
 
 ## Pages
 
-- `index.html` — Accueil et projets
+- `index.html` — Accueil, expertises et sélection
+- `realisations.html` — Expériences, missions clients et réalisations
+- `projets-360.html` — Index des études de cas marketing 360°
 - `freshgo.html` — Étude de cas FRESHGO
-- `joins.html` — Projet GROUPE JOINS
-- `contact.html` — Compétences et contact
+- `joins.html` — Étude de cas GROUPE JOINS
+- `contact.html` — Parcours, compétences et contact
 
