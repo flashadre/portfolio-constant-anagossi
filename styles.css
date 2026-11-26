@@ -1422,3 +1422,65 @@ h1, h2, h3, h4 { font-family: var(--heading); }
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
+
+@media (min-width: 681px) {
+  .hero-art {
+    min-height: 480px;
+  }
+
+  .profile-stat {
+    bottom: 128px;
+  }
+
+  .tag-bottom {
+    bottom: 0;
+  }
+
+  .art-caption {
+    right: auto;
+    bottom: 4px;
+    left: 0;
+    max-width: 55%;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero-art {
+    display: flex;
+    min-height: 0;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    padding-block: 8px 12px;
+  }
+
+  .hero-portrait {
+    flex: 0 0 auto;
+  }
+
+  .profile-stat {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: min(82%, 300px);
+    padding: 14px 16px 12px;
+  }
+
+  .tag-bottom {
+    position: relative;
+    inset: auto;
+    align-self: center;
+  }
+
+  .art-caption {
+    display: block;
+    position: static;
+    right: auto;
+    bottom: auto;
+    max-width: 82%;
+    color: rgba(255,255,255,.6);
+    font-size: 7px;
+    text-align: center;
+  }
+}
